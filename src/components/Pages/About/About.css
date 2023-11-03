@@ -1,49 +1,11 @@
-/* ChurchInfo styles */
-.church-info {
-    background-color: #222;
-    color: #FFD700; /* Yellow color */
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-  }
-  
-  /* ConvenorInfo styles */
-  .convenor-info {
-    background-color: #333;
-    color: #FFA500; /* Orange color */
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-  }
-  
-  /* Ministries styles */
-  .ministries-info {
-    background-color: #444;
-    color: #00FF00; /* Green color */
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-  }
-  
-  /* Style the images for all sections */
-  .church-info img,
-  .convener-info img,
-  .ministries-info img {
-    width: 100px;
-    border-radius: 5px;
-  }
-  
-  /* Style headings for all sections */
-  .church-info h1,
-  .convenor-info h2,
-  .ministries-info h2 {
-    color: #FFD700;
-  }
-  
-  /* Style paragraphs for all sections */
-  .church-info p,
-  .convenor-info p,
-  .ministries-info p {
-    color: #FFD700;
-  }
-  
+.About{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #222222;
+}
+
+.About .about-page{
+  margin-top: 15vh;
+  margin-left: 2%;
+  color: #ffffff;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './E5TInfo.css';
 // import Image from '../../../../public/images/image1.jpeg';// Replace with your church image path
 
 const E5TInfo = () => {

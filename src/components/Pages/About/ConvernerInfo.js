@@ -6,9 +6,9 @@ const ConvenerInfo = () => {
   return (
     <div className="convener-info">
       <h2>Our Convenor</h2>
-      <img src='/images/EHTHG.jpg' alt="Convenor" />
+      <img src='/images/YYG_1_-removebg-preview.png' alt="Convenor" />
       <p>
-        [Convenor's Name] is our dedicated leader who guides our church
+        Busayo David [Love Dr] is our dedicated leader of Ephesians 5 Tribe
         with wisdom and passion. They are committed to serving the community
         and helping us grow in our faith.
       </p>
