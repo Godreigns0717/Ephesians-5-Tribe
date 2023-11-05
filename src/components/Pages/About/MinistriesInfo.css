@@ -1,25 +1,9 @@
-/* Common styles for dark background and yellow text */
-.about-section {
-    background-color: #222;
-    color: #FFD700; /* Yellow color */
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-  }
-  
-  /* Style the images */
-  .about-section img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-  
-  /* Style headings */
-  .about-section h1, .about-section h2 {
-    color: #FFD700;
-  }
-  
-  /* Style paragraphs */
-  .about-section p {
-    color: #FFD700;
-  }
-  
+li{
+  display: flex;
+  align-items: center;
+}
+
+li img{
+  width: 100px;
+  height: 100px;
+}

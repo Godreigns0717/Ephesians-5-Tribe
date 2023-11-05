@@ -11,7 +11,9 @@ const About = () => {
       <Navbar />
       <div className="about-page">
         <E5TInfo />
+        <hr></hr>
         <ConvenerInfo />
+        <hr></hr>
         <Ministries />
       </div>
     </div>

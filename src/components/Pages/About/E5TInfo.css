@@ -1,4 +1,33 @@
 .church-info{
   width: 100%;
-  min-height: 50vh;
+  min-height: 30vh;
+}
+
+.church-info h1{
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.church-info .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2% 0 2%;
+}
+
+.church-info .content h3{
+  width: 300px;
+  margin-right: 20%;
+}
+
+.church-info .content h3 a{
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffff00;
+  transition: .5s;
+}
+
+.church-info .content h3 a:hover{
+  color: #ffff00;
+  text-decoration: none;
 }

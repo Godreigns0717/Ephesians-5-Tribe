@@ -6,6 +6,13 @@
 
 .About .about-page{
   margin-top: 15vh;
-  margin-left: 2%;
   color: #ffffff;
+}
+
+hr{
+  background-color: #ffff00;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 2px;
+  border: #ffff00;
 }

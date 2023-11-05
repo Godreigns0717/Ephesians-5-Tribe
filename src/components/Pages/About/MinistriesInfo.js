@@ -1,19 +1,27 @@
 import React from 'react';
-import './About.css';
+import './MinistriesInfo.css'
 
 const Ministries = () => {
   return (
     <div className="ministries-info">
       <h2>Our Ministries</h2>
       <p>
-        At [Church Name], we offer a variety of ministries to cater to the
+        At The Ephesians 5 Tribe, we offer a variety of ministries to cater to the
         spiritual needs of our congregation. These ministries include:
       </p>
       <ul>
-        <li>Worship Ministry</li>
-        <li>Youth Ministry</li>
-        <li>Community Outreach</li>
-        <li>[Add more ministries here]</li>
+        <li>
+          <img src='/images/image3.jpg' alt='couch' />
+          <a href='/'>The Couch</a>
+        </li>
+        <li>
+          <img src='/images/image3.jpg' alt='couch' />
+          <a href='/'>Online Meetings</a>
+        </li>
+        <li>
+          <img src='/images/image3.jpg' alt='couch' />
+          <a href='/'>Touched</a>
+        </li>
       </ul>
       <p>
         Each ministry is dedicated to fostering a deeper connection with God
