@@ -1,6 +1,7 @@
 import React from "react";
 import './Footer.css'
 import {FaTwitter, FaWhatsapp, FaFacebook, FaInstagram, FaDiscord, FaTelegram} from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return(
@@ -9,54 +10,54 @@ const Footer = () => {
                 <div className='sb__footer-links'>
                     <div className='sb__footer-links-div'>
                         <h3>Ministries</h3>
-                        <a href='/#'>
+                        <Link to='/Ministries'>
                             <p>Touched</p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/Ministries'>
                             <p>The Couch</p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/Ministries'>
                             <p>Online Meetings</p>
-                        </a>
+                        </Link>
                     </div>
                     <div className='sb__footer-links-div'>
                         <h3>Gallery</h3>
-                        <a href='/#'>
+                        <Link to='/Gallery'>
                             <p>Gallery 1</p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/Gallery'>
                             <p>Gallery 2</p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/Gallery'>
                             <p>Gallery 3</p>
-                        </a>
+                        </Link>
                     </div>
                     <div className='sb__footer-links-div'>
-                        <h3>Head</h3>
-                        <a href='/#'>
+                        <h3>Convener</h3>
+                        <Link to='/About'>
                             <p>Love Dr</p>
-                        </a>
+                        </Link>
                     </div>
                     <div className='sb__footer-links-div socialmedia'>
                         <h3>Social media</h3>
-                        <a href='/#'>
+                        <Link to='/#'>
                             <p> Facebook <FaFacebook /></p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/#'>
                             <p> Instagram <FaInstagram /></p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/#'>
                             <p> Whatsapp <FaWhatsapp /></p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/#'>
                             <p> Twitter <FaTwitter /></p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/#'>
                             <p>Discord <FaDiscord /></p>
-                        </a>
-                        <a href='/#'>
+                        </Link>
+                        <Link to='/#'>
                             <p> Telegram <FaTelegram /></p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -69,9 +70,9 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className='sb__footer-links'>
-                        <a href='/#'><div><p>Terms and Conditions</p></div></a>
-                        <a href='/#'><div><p>Privacy</p></div></a>
-                        <a href='/#'><div><p>Security</p></div></a>
+                        <Link to='/#'><div><p>Terms and Conditions</p></div></Link>
+                        <Link to='/#'><div><p>Privacy</p></div></Link>
+                        <Link to='/#'><div><p>Security</p></div></Link>
                     </div>
                 </div>
             </div>
