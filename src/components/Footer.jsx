@@ -70,9 +70,9 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className='sb__footer-links'>
-                        <Link to='/#'><div><p>Terms and Conditions</p></div></Link>
-                        <Link to='/#'><div><p>Privacy</p></div></Link>
-                        <Link to='/#'><div><p>Security</p></div></Link>
+                        <Link to='/'><div><p>Terms and Conditions</p></div></Link>
+                        <Link to='/'><div><p>Privacy</p></div></Link>
+                        <Link to='/'><div><p>Security</p></div></Link>
                     </div>
                 </div>
             </div>

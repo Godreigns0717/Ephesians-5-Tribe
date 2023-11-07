@@ -1,7 +1,8 @@
 .About{
   width: 100%;
   min-height: 100vh;
-  background-color: #222222;
+  /* background-color: #222222; */
+  background-color: #000000;
 }
 
 .About .about-page{

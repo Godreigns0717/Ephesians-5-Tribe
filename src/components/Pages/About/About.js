@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../Navbar'
+import Footer from '../../Footer';
 import E5TInfo from './E5TInfo';
 import ConvenerInfo from './ConvernerInfo';
 import Ministries from './MinistriesInfo';
@@ -16,6 +17,7 @@ const About = () => {
         <hr></hr>
         <Ministries />
       </div>
+      <Footer />
     </div>
   );
 };

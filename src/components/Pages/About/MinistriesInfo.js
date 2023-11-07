@@ -1,42 +1,3 @@
-// import React from 'react';
-// import './MinistriesInfo.css'
-
-// const Ministries = () => {
-//   return (
-//     <div className="ministries-info">
-//       <h2>Our Ministries</h2>
-//       <p>
-//         At The Ephesians 5 Tribe, we offer a variety of ministries to cater to the
-//         spiritual needs of our congregation. These ministries include:
-//       </p>
-//       <ul>
-//         <li>
-//           <img src='/images/image3.jpg' alt='couch' />
-//           <a href='/'>The Couch</a>
-//         </li>
-//         <li>
-//           <img src='/images/image3.jpg' alt='couch' />
-//           <a href='/'>Online Meetings</a>
-//         </li>
-//         <li>
-//           <img src='/images/image3.jpg' alt='couch' />
-//           <a href='/'>Touched</a>
-//         </li>
-//       </ul>
-//       <p>
-//         Each ministry is dedicated to fostering a deeper connection with God
-//         and providing opportunities for personal growth and community
-//         involvement.
-//       </p>
-//     </div>
-//   );
-// };
-
-// export default Ministries;
-
-
-
-
 import React, { Component } from 'react';
 import './MinistriesInfo.css';
 
@@ -57,17 +18,17 @@ class MinistriesInfo extends Component {
     const cards = [
       {
         image: '/images/image1.jpeg',
-        title: 'Card 1',
+        title: 'The Couch',
         content: 'Content for Card 1 goes here.',
       },
       {
         image: '/images/image2.jpeg',
-        title: 'Card 2',
+        title: 'Touched',
         content: 'Content for Card 2 goes here.',
       },
       {
         image: '/images/image4.jpeg',
-        title: 'Card 3',
+        title: 'Online Meetings',
         content: 'Content for Card 3 goes here.',
       },
     ];
