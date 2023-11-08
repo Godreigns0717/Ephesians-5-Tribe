@@ -1,0 +1,74 @@
+.blog{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.blog-post{
+  width: 96%;
+  min-height: 10vh;
+  margin-left: 2%;
+  margin-top: 7vh;
+  padding: 2vh;
+  position: relative;
+}
+
+.blog-post:hover{
+  /* background-color: #222; */
+  box-shadow: 3px 1px 3px #807b7b;
+  border-radius: 20px;
+}
+
+.blog-post h2{
+  font-size: 1.3rem;
+  color: #ffff00;
+  text-align: center;
+}
+
+.blog-post .author{
+  position: absolute;
+  font-size: 1.1rem;
+  top: 2vh;
+  color: #ffff00;
+}
+
+.blog-post .content{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 2vh;
+  margin-left: 4vh;
+  width: 300px;
+  color: #ffffff;
+}
+
+.blog-post .actions button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-left: 5%;
+}
+
+.blog-post .actions button:hover{
+  background-color: #807b7ba4;
+}
+
+.blog-post .actions .hearts, .blog-post .actions .likes{
+  margin-right: 2%;
+  /* margin-top: 5vh; */
+}
+
+.blog-post .actions button.like-active{
+  color: #ffff00;
+}
+
+.blog-post .actions button.heart-active{
+  color: #ff0000;
+}
+
+.blog-post .actions .delete{
+  position: absolute;
+  right: 1%;
+  top: 1vh;
+}
