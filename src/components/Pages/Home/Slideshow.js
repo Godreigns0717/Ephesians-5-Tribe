@@ -1,55 +1,33 @@
-import React from "react";
-import './Slideshow.css';
+import React, { useState, useEffect } from 'react';
+import './Slideshow.css'
 
-const Slideshow = () => {
-  return(
-    <div className="Slideshow">
+const Slideshow = ({ slides }) => {
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-      {/*Image Slide 1*/}
-      <div className="Slideshow-content content_1">
-          <div className="content-text">
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    }, 3000); // Change slide every 3 seconds (adjust as needed)
 
-          </div>
-      </div>
+    return () => {
+      clearInterval(interval);
+    };
+  }, [slides]);
 
-      {/*Image Slide 2*/}
-      <div className="Slideshow-content content_2">
-          <div className="content-text">
-            
-          </div>
-      </div>
-
-      {/*Image Slide 3*/}
-      <div className="Slideshow-content content_3">
-          <div className="content-text">
-            
-          </div>
-      </div>
-
-      {/*Image Slide 4*/}
-      <div className="Slideshow-content content_4">
-          <div className="content-text">
-            
-          </div>
-      </div>
-
-      {/*Image Slide 5*/}
-      <div className="Slideshow-content content_5">
-          <div className="content-text">
-            
-          </div>
-      </div>
-
-      {/*Image Slide 6*/}
-      <div className="Slideshow-content content_6">
-          <div className="content-text">
-            
-          </div>
-      </div>
-
+  return (
+    <div className="slideshow">
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className={`slide ${index === currentSlide ? 'active' : ''}`}
+        >
+          <img src={slide.image} alt={slide.title} />
+          <h2>{slide.title}</h2>
+          <p>{slide.description}</p>
+        </div>
+      ))}
     </div>
-  )
-}
-  
+  );
+};
 
 export default Slideshow;

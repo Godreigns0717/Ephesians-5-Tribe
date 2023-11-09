@@ -16,12 +16,30 @@ const Home = () => {
   targetDate.setMinutes(targetDate.getMinutes() + 59);
   targetDate.setSeconds(targetDate.getSeconds() + 0);
 
+  const slides = [
+    {
+      image: '/images/image1.jpeg',
+      title: 'Slide 1',
+      description: 'Description for Slide 1',
+    },
+    {
+      image: '/images/image1.jpeg',
+      title: 'Slide 2',
+      description: 'Description for Slide 2',
+    },
+    {
+      image: '/images/image3.jpg',
+      title: 'Slide 3',
+      description: 'Description for Slide 3',
+    },
+  ];
+
 
   return (
 
     <div className="Home">
         <Navbar /> 
-        <Slideshow />
+        <Slideshow slides={slides} />
         <MinistryCard />
         <JoinWork />
         <CountdownTimer targetDate={targetDate} />

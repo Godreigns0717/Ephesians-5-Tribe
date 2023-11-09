@@ -14,32 +14,30 @@
     height: 290px;
     border-radius: 10px;
     z-index: 11111;
-    overflow: hidden;
-    border: 1px solid black;
-    background-color: yellow;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #ffff00;
 }
 
-.JoinWorkforce .img-content img{
-    width: 300px;
-    height: 300px;
-    /* background-image: url('./image1.jpeg');
+.JoinWorkforce .img-content:hover{
+    background-image: linear-gradient(#000000, #000000af);
+}
+
+.JoinWorkforce .img{
+    width: 290px;
+    height: 290px;
+    z-index: 11;
+    background-image: url('../../../../public/images/image4.jpeg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; */
-    /* border-radius: 50px; */
-    transition: all 3s ease-in-out;
-    z-index: 11;
-    align-self: center;
-    text-align: center;
-    margin-right: 100%;
+    background-size: contain;
+    transition: all 4s ease-in-out;
 }
 
-.JoinWorkforce .img-content img:hover{
-    /* background-image: linear-gradient(#00000054, #00000018), url('./image1.jpeg'); */
-    background: linear-gradient(#00000054, #00000018);
-    transform: rotate(3deg);
-    /* background-size: cover; */
-    /* background-size: 300px 300px; */
+.JoinWorkforce .img:hover{
+    background-image: linear-gradient( #000000ca, #000000af), url('../../../../public/images/image1.jpeg');
+    transform: scale(1.1) rotate(3deg);
+    background-size: contain;
 }
 
 .JoinWorkforce .content{

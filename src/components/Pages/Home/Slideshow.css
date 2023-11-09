@@ -1,69 +1,37 @@
-.Slideshow{
+.slideshow {
   width: 100%;
-  min-height: 90vh; 
-  top: 0;
-  /* position: absolute; */
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
+  height: 90vh; /* Adjust the height as needed */
   overflow: hidden;
-  /* animation: Slideshow 5s 1s infinite; */
+  position: relative;
 }
 
-@keyframes Slideshow {
-  0%{
-    left: 100;
-  }
-
-  100%{
-    left: -200;
-  }
+.slide {
+  display: none;
+  text-align: center;
+  background: linear-gradient(#000, #000);
 }
 
-.Slideshow-content{
-  min-width: 98%;
-  height: 90vh;
-  margin-left: 1%;
+.slide img {
+  width: 100%;
+  max-height: 100%;
+  /* object-fit: cover; */
+  background: linear-gradient(#000, #000);
 }
 
-.Slideshow .content_1{
-  background-image: linear-gradient(#000000a0, #000000a0), url('/public/images/image1.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.slide.active {
+  display: block;
 }
 
-.Slideshow .content_2{
-  background-image: linear-gradient(#000000a0, #000000a0), url('/public/images/image1.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* h2 {
+  font-size: 24px;
+  top: 20px;
+  color: white;
+  position: absolute;
+
 }
 
-.Slideshow .content_3{
-  background-image: linear-gradient(#000000a0, #000000a0), url('/public/images/image3.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.Slideshow .content_4{
-  background-image: linear-gradient(#000000a0, #000000a0), url('/public/images/image4.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.Slideshow .content_5{
-  background-image: linear-gradient(#000000a0, #000000a0), url('/public/images/image5.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.Slideshow .content_6{
-  background-image: linear-gradient(#000000a0, #000000a0), url('/public/images/image6.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: white;
+} */

@@ -4,13 +4,13 @@ import './Join_work.css'
 
 const JoinWork = () => {
 
-    const Image = '/images/image1.jpeg'
+    // const Image = '/images/image1.jpeg';
 
     return(
 
         <div className="JoinWorkforce">
             <div className="img-content">
-                <img src={Image} alt="Logo" />
+                <div className="img"></div>
             </div>
             <div className="content">
                 <h2>Do You Want To Join The Ephesains 5 Tribe Workforce?</h2>
