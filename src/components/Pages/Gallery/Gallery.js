@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ImageLightbox from './ImageLightbox';
-import Navbar from '../../Navbar';
 import './Gallery.css'
+import ScrollToTopButton from '../../ScrollToTopButton';
 
 const Gallery = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -38,15 +38,19 @@ const Gallery = () => {
       <div className="gallery">
         {imageUrls.map((imageUrl, index) => (
           <div key={index} className="image-container" onClick={() => openLightbox(imageUrl)}>
-            <img src={imageUrl} alt={`Image ${index + 1}`} />
+            <img src={imageUrl} alt={`index ${index + 1}`} />
           </div>
         ))}
-      {lightboxOpen && (
-        <ImageLightbox imageUrl={selectedImage} onClose={closeLightbox} />
-      )}
-    </div>
+        {lightboxOpen && (
+          <ImageLightbox imageUrl={selectedImage} onClose={closeLightbox} />
+        )}
+      </div>
+      <ScrollToTopButton />
     </div>
   );
 };
 
 export default Gallery;
+
+
+// alt={`Image ${index + 1}`}

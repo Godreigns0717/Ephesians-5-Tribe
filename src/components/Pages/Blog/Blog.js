@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import BlogPost from './BlogPost';
 import './Blog.css'
 import Navbar from '../../Navbar';
+import ScrollToTopButton from '../../ScrollToTopButton';
 
 const Blog = () => {
   const [posts, setPosts] = useState([
@@ -56,6 +57,7 @@ const Blog = () => {
           onShare={() => handleShare(post.id)}
         />
       ))}
+      <ScrollToTopButton />
     </div>
   );
 };

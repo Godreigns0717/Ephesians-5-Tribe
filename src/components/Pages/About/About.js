@@ -5,6 +5,7 @@ import E5TInfo from './E5TInfo';
 import ConvenerInfo from './ConvernerInfo';
 import Ministries from './MinistriesInfo';
 import './About.css';
+import ScrollToTopButton from '../../ScrollToTopButton';
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
         <hr></hr>
         <Ministries />
       </div>
+      <ScrollToTopButton />
       <Footer />
     </div>
   );

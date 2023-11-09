@@ -20,6 +20,9 @@ const Slideshow = ({ slides }) => {
         <div
           key={index}
           className={`slide ${index === currentSlide ? 'active' : ''}`}
+          style={{
+            backgroundImage: `linear-gradient(rgba(255, 0, 0, ), rgba(0, 0, 0, 0.3)), url(${slide.image})`,
+          }}
         >
           <img src={slide.image} alt={slide.title} />
           <h2>{slide.title}</h2>

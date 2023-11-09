@@ -6,6 +6,7 @@ import Slideshow from './Slideshow.js';
 import JoinWork from './Join_work.js';
 import CountdownTimer from './Countdown-couch.js';
 import Footer from '../../Footer';
+import ScrollToTopButton from '../../ScrollToTopButton'
 
 
 const Home = () => {
@@ -43,6 +44,7 @@ const Home = () => {
         <MinistryCard />
         <JoinWork />
         <CountdownTimer targetDate={targetDate} />
+        <ScrollToTopButton />
         <Footer />
     </div>
   );
