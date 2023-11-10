@@ -16,7 +16,7 @@ const MinistryCard = () => {
     return(
         <div className="Ministry">
             <div className="Ministry-card">
-                <p className="mcard-title"><a href="#" > { mCardTitle } </a></p>
+                <p className="mcard-title"><a href="/" > { mCardTitle } </a></p>
                 <MinistryCardlist mcards={mcards} title='MinistryCards' />
             </div>
         </div>

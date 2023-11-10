@@ -1,0 +1,41 @@
+.contact-content{
+    width: 98%;
+    min-height: 100vh;
+    margin-left: 1%;
+    margin-top: 15vh;
+}
+
+.contact_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+
+.contact_cards .cards{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#000000c1, #000000c1),url(/public/images/image2.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.contact_cards .cards p{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.contact_cards .cards h4{
+    color: #ffff00;
+    font-size: 1.2rem;
+}
+
+.contact_cards .cards .cnct-icons{
+    color: #ffffff;
+    font-size: 3rem;
+}

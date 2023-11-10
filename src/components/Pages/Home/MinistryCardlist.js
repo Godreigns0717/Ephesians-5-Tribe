@@ -17,7 +17,7 @@ const MinistryCardlist = ({mcards, title}) => {
                         <FaStar />
                     </p>
 
-                    <a href='#' className='mcd__learn-more'>Learn More</a>
+                    <a href='/' className='mcd__learn-more'>Learn More</a>
                 </div>
             ))
             }
