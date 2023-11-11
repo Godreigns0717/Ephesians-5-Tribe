@@ -41,20 +41,8 @@ a:hover{
 
 }
 
-/* wrong styling can be fixed... */
-
-/* .socailmedia{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-} */
-
-/* .socailmedia a{
-    font-size: 8rem;
-} */
-
 .socialmedia a p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .socialmedia a p:hover{

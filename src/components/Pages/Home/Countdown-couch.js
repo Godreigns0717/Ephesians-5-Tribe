@@ -1,41 +1,3 @@
-// import React, { useEffect, useRef, useState } from "react";
-// import './Countdown-couch.css'
-// import { FaEnvelopeOpenText } from "react-icons/fa";
-
-// const Countdown = ({seconds}) => {
-//     const[countdown, setCountdown] = useState(seconds)
-//     const timerId = useRef();
-
-//     useEffect(() => {
-//         timerId.current = setInterval(() => {
-//             setCountdown(prev => prev - 1)
-//         }, 1000);
-//         return () => clearInterval(timerId.current)
-//     }, [])
-
-//     useEffect(() => {
-//         if (countdown <= 0) {
-//             clearInterval(timerId.current)
-//             alert("END!")
-//         }
-//     }, [countdown])
-
-//     return(
-//         <div>
-//             <h2>Count Down: { countdown }</h2>
-//         </div>
-//     )
-// }
-
-// export default Countdown;
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from 'react';
 import './Countdown-couch.css'
 
@@ -75,6 +37,9 @@ const CountdownTimer = ({ targetDate }) => {
 
     return () => clearInterval(interval);
   }, [targetDate]);
+
+
+  
 
   return (
     <div className='Countdown'>

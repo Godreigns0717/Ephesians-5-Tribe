@@ -13,8 +13,8 @@ import TopIcons from '../../TopIcons.js';
 const Home = () => {
   // Calculate the target date, e.g., 3 days, 2 hours, 30 minutes, and 15 seconds from now
   const targetDate = new Date();
-  targetDate.setDate(targetDate.getDate() + 6);
-  targetDate.setHours(targetDate.getHours() + 5);
+  targetDate.setDate(targetDate.getDate() + 167);
+  targetDate.setHours(targetDate.getHours() + 45);
   targetDate.setMinutes(targetDate.getMinutes() + 59);
   targetDate.setSeconds(targetDate.getSeconds() + 0);
 

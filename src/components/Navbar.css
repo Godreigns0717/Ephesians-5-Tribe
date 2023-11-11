@@ -79,16 +79,6 @@
     }
 }
 
-.nav_bar h2{
-    font-size: 2rem;
-    font-weight: 900;
-    z-index: 11;
-    position: absolute;
-    display: inline;
-    letter-spacing: 100%;
-    margin-top: -3vh;
-}
-
 /* .nav_bar h2 span{
     position: absolute;
     left: 10px;
