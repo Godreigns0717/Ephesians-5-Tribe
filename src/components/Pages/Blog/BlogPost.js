@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {  } from 'react-icons'
-import { FaHeart, FaShare, FaThumbsUp, FaTimes } from 'react-icons/fa';
+import { FaClipboard, FaHeart, FaThumbsUp, FaTimes } from 'react-icons/fa';
 import './Blog.css'
 
 const BlogPost = ({ title, content, author, onDelete, onLike, onHeart, onShare }) => {
@@ -21,6 +21,21 @@ const BlogPost = ({ title, content, author, onDelete, onLike, onHeart, onShare }
         setHeartActive(true); // Set heart button to active
     };
   
+    const handleShare = () => {
+        // For simplicity, let's copy the post content to the clipboard
+        const shareableContent = `Check out this blog post on The Ephesians 5 Tribe website: "${title}" - ${content} written by ${author}`;
+        
+        // Create a textarea element, set its value, select the text, and copy it to the clipboard
+        const textarea = document.createElement('textarea');
+        textarea.value = shareableContent;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+    
+        // Notify the user that the content has been copied
+        alert('Content copied to clipboard!');
+      };
 
     return (
         <div className="blog-post">
@@ -37,8 +52,8 @@ const BlogPost = ({ title, content, author, onDelete, onLike, onHeart, onShare }
                 <button onClick={onDelete} className='delete'>
                     <FaTimes />
                 </button>
-                <button onClick={onShare} className='share'>
-                    <FaShare  />
+                <button onClick={handleShare} className='share'>
+                    <FaClipboard  />
                 </button>
             </div>
         </div>
