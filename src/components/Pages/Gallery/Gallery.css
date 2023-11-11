@@ -27,7 +27,7 @@
   transform: scale(1.05);
 }
 
-img {
+.image-container img {
   width: 300px;
   height: 300px;
   display: block;
