@@ -3,6 +3,7 @@ import './Contact.css'
 import Navbar from "../../Navbar";
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import ScrollToTopButton from "../../ScrollToTopButton";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
 
@@ -24,17 +25,7 @@ const Contact = () => {
                         <h4>Phone: <p>+234904848590</p></h4>
                     </div>
                 </div>
-                <div className="contact_message">
-                    <form>
-                        <label>Full Name</label>
-                        <input type="name" placeholder="Enter Name" />
-                        <label>Email</label>
-                        <input type="email" placeholder="Enter your email" />
-                        <label>Enter Your Message</label>
-                        <input type="text" placeholder="Enter Your Message" />
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
+                <ContactForm />
             </div>
             <ScrollToTopButton />
         </div>
