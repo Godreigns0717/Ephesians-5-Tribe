@@ -7,6 +7,7 @@ import JoinWork from './Join_work.js';
 import CountdownTimer from './Countdown-couch.js';
 import Footer from '../../Footer';
 import ScrollToTopButton from '../../ScrollToTopButton'
+import TopIcons from '../../TopIcons.js';
 
 
 const Home = () => {
@@ -45,6 +46,8 @@ const Home = () => {
         <JoinWork />
         <CountdownTimer targetDate={targetDate} />
         <ScrollToTopButton />
+        
+        <TopIcons />
         <Footer />
     </div>
   );

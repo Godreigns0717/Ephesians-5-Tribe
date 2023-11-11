@@ -4,6 +4,7 @@ import BlogPost from './BlogPost';
 import './Blog.css'
 import Navbar from '../../Navbar';
 import ScrollToTopButton from '../../ScrollToTopButton';
+import TopIcons from '../../TopIcons';
 
 const Blog = () => {
   const [posts, setPosts] = useState([
@@ -43,6 +44,7 @@ const Blog = () => {
 
   return (
     <div className="blog">
+        <TopIcons />
         <Navbar />
       {posts.map((post) => (
         <BlogPost

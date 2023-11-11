@@ -4,11 +4,13 @@ import Navbar from "../../Navbar";
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import ScrollToTopButton from "../../ScrollToTopButton";
 import ContactForm from "./ContactForm";
+import TopIcons from "../../TopIcons";
 
 const Contact = () => {
 
     return(
         <div className="Contact">
+            <TopIcons />
             <Navbar />
             <div className="contact-content">
                 <div className="contact_cards">

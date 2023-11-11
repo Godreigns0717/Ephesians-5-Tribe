@@ -6,10 +6,12 @@ import ConvenerInfo from './ConvernerInfo';
 import Ministries from './MinistriesInfo';
 import './About.css';
 import ScrollToTopButton from '../../ScrollToTopButton';
+import TopIcons from '../../TopIcons';
 
 const About = () => {
   return (
     <div className='About'>
+      <TopIcons />
       <Navbar />
       <div className="about-page">
         <E5TInfo />
