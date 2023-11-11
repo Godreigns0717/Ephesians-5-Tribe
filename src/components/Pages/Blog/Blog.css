@@ -1,10 +1,13 @@
 .blog{
   width: 100%;
   min-height: 100vh;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 .blog-post{
+  
+  background-color: #222222c0;
+  border-radius: 20px;
   width: 96%;
   min-height: 10vh;
   margin-left: 2%;
@@ -14,8 +17,8 @@
 }
 
 .blog-post:hover{
-  /* background-color: #222; */
-  box-shadow: 3px 1px 3px #807b7b;
+  background-color: #222222;
+  box-shadow: 3px 1px 3px #807b7bb7;
   border-radius: 20px;
 }
 

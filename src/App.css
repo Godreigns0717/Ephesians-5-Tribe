@@ -5,7 +5,10 @@
 }
 
 .App{
-    background-color: #000000;
+    background-image: url(../public/images/E5T-11.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat:  repeat;
     min-height: 100vh;
     margin-top: 0;
 }
