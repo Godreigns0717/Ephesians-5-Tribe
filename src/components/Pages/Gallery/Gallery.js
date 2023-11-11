@@ -1,27 +1,15 @@
+// Gallery.js
+
 import React, { useState } from 'react';
 import ImageLightbox from './ImageLightbox';
+import imageData from './ImageData';
+import ScrollToTopButton from '../../ScrollToTopButton'
 import './Gallery.css'
-import ScrollToTopButton from '../../ScrollToTopButton';
+ // Assuming you have imageData.js with the image data
 
 const Gallery = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState('');
-
-  const imageUrls = [
-    '/images/image1.jpeg',
-    '/images/image2.jpeg',
-    '/images/image3.jpg',
-    '/images/image4.jpeg',
-    '/images/image5.jpeg',
-    '/images/image6.jpeg',
-    '/images/image1.jpeg',
-    '/images/image2.jpeg',
-    '/images/image3.jpg',
-    '/images/image4.jpeg',
-    '/images/image5.jpeg',
-    '/images/image6.jpeg',
-    // Add more image URLs as needed
-  ];
 
   const openLightbox = (imageUrl) => {
     setSelectedImage(imageUrl);
@@ -34,23 +22,23 @@ const Gallery = () => {
   };
 
   return (
-    <div className='Gallery'>
-      <div className="gallery">
-        {imageUrls.map((imageUrl, index) => (
-          <div key={index} className="image-container" onClick={() => openLightbox(imageUrl)}>
-            <img src={imageUrl} alt={`index ${index + 1}`} />
+    <div className="gallery-container">
+      {Object.keys(imageData).map((month) => (
+        <div key={month} className="month-section">
+          <h2 className="month-title">{month}</h2>
+          <div className="month-images">
+            {imageData[month].map((imageUrl, index) => (
+              <div key={index} className="image-container" onClick={() => openLightbox(imageUrl)}>
+                <img src={imageUrl} alt={`Gallery ${index + 1}`} />
+              </div>
+            ))}
           </div>
-        ))}
-        {lightboxOpen && (
-          <ImageLightbox imageUrl={selectedImage} onClose={closeLightbox} />
-        )}
-      </div>
+        </div>
+      ))}
+      {lightboxOpen && <ImageLightbox imageUrl={selectedImage} onClose={closeLightbox} />}
       <ScrollToTopButton />
     </div>
   );
 };
 
 export default Gallery;
-
-
-// alt={`Image ${index + 1}`}
