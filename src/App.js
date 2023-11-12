@@ -11,6 +11,9 @@ import Contact from './components/Pages/Contact/Contact';
 import Blog from './components/Pages/Blog/Blog';
 import Gallery from './components/Pages/Gallery/Gallery';
 import Ministries from './components/Pages/Ministries/Ministries';
+import OnlineMeetings from './components/Pages/Ministries/OnlineMeetings'
+import TheCouch from './components/Pages/Ministries/TheCouch';
+import Touched from './components/Pages/Ministries/Touched'
 import './App.css';
 import Loading from './components/Pages/Home/Loading';
 
@@ -40,6 +43,9 @@ function App() {
           <Route path="/ministries" element={<Ministries />} />
           <Route path='/blog' element={<Blog />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path='/the_couch' element={<TheCouch />} />
+          <Route path='/touched' element={<Touched />} />
+          <Route path='/online_meetings' element={<OnlineMeetings />} />
           {/* Add more routes and components as needed */}
         </Routes>
         )}
@@ -51,7 +57,7 @@ function App() {
 export default App;
 
 
-<Routes>
+/* <Routes>
 <Route path="/" element={<Home />} />
 <Route path="/about" element={<About />} />
 <Route path="/gallery" element={<Gallery />} />
@@ -59,5 +65,4 @@ export default App;
 <Route path="/ministries" element={<Ministries />} />
 <Route path='/blog' element={<Blog />} />
 <Route path="/donate" element={<Donate />} />
-{/* Add more routes and components as needed */}
-</Routes>
+</Routes> */

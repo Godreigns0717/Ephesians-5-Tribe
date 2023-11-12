@@ -1,9 +1,7 @@
 import { FaTimes, FaBars,} from "react-icons/fa";
 import { useRef, useState } from "react";
-// import About from "./Pages/About/About";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-// import { isDisabled } from "@testing-library/user-event/dist/utils";
 
 const Navbar = () => {
 
@@ -40,26 +38,26 @@ const Navbar = () => {
                 </a>
                 <nav ref={ navRef }>
                     <h1 id="rsp-logo">E5T</h1>
-                    <Link to='./'>Home</Link>
-                    <Link to='./about'>About</Link>
-                    <Link to='./blog'>Blog</Link>
+                    <Link to='/'>Home</Link>
+                    <Link to='/about'>About</Link>
+                    <Link to='/blog'>Blog</Link>
 
                     {/* Ministry Dropdown */}
                     <div className="dropdownM" onMouseEnter={e => setIsActiveM(!isActiveM) } onMouseLeave={e => setIsActiveM(!isActiveM)} >
                         <div className="dropdownM-btn" >
-                            <Link to='./ministries'>Ministries</Link>
+                            <Link to='/ministries'>Ministries</Link>
                             { /* <span><FaCaretDown /></span> */}
                         </div>
                         {isActiveM && (
                             <div className="dropdownM-content">
                                 <div className="dropdownM-item">
-                                    <a href="/">Online</a>
+                                    <a href="/online_meetings">Online</a>
                                 </div>
                                 <div className="dropdownM-item">
-                                <a href="/">The Couch</a>
+                                <a href="/the_couch">The Couch</a>
                                 </div>
                                 <div className="dropdownM-item">
-                                    <a href="/">Touched</a>
+                                    <a href="/touched">Touched</a>
                                 </div>                                
                             </div>
                         )}
@@ -68,28 +66,28 @@ const Navbar = () => {
                     {/* Gallery Dropdown */}
                     <div className="dropdownG" onMouseEnter={e => setIsActiveG(!isActiveG) } onMouseLeave={e => setIsActiveG(!isActiveG)}>
                         <div className="dropdownG-btn" >
-                            <Link to='./gallery'>Gallery</Link> 
+                            <Link to='/gallery'>Gallery</Link> 
                             {/* <span><FaCaretDown /></span>      */}
                         </div>
                         {isActiveG && (
                             <div className="dropdownG-content">
                                 <div className="dropdownG-item">
-                                    <a href="/">Gallery 1</a>
+                                    <a href=" /gallery">Gallery 1</a>
                                 </div>
                                 <div className="dropdownG-item">
-                                <a href="/">Gallery 2</a>
+                                <a href="/gallery">Gallery 2</a>
                                 </div>
                                 <div className="dropdownG-item">
-                                    <a href="/">Gallery 3</a>
+                                    <a href="/gallery">Gallery 3</a>
                                 </div>                                
                                 <div className="dropdownG-item">
-                                <a href="/">Gallery 4</a>
+                                <a href="/gallery">Gallery 4</a>
                                 </div>
                             </div>
                         )}
                     </div>
-                    <Link to='./contact' id="contact">Contact Us</Link>
-                    <Link to='./donate' className="donate">Donate</Link>
+                    <Link to='/contact' id="contact">Contact Us</Link>
+                    <Link to='/donate' className="donate">Donate</Link>
                     <button className="nav-btn nav-close-btn" onClick={ showNavbar }>
                        <FaTimes />   
                     </button>

@@ -1,4 +1,13 @@
 /* Apply styles to the body or a container to set a background color */
+.Gallery .search-links{
+  text-align: center;
+}
+
+.Gallery .search-links p{
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 7vh;
+}
 
 .gallery-container {
   width: 100%;
@@ -7,9 +16,8 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
   justify-items: center;
-  /* margin-top: 10vh; */
-  padding: 20px;
   box-sizing: border-box;
+  /* margin-top: 5vh; */
 }
 
 .image-container {

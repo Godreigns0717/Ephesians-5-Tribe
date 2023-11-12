@@ -18,16 +18,19 @@ class MinistriesInfo extends Component {
     const cards = [
       {
         image: '/images/image1.jpeg',
+        link: '/the_couch',
         title: 'The Couch',
         content: 'Content for Card 1 goes here.',
       },
       {
         image: '/images/image2.jpeg',
+        link: '/touched',
         title: 'Touched',
         content: 'Content for Card 2 goes here.',
       },
       {
         image: '/images/image4.jpeg',
+        link: '/online_meetings',
         title: 'Online Meetings',
         content: 'Content for Card 3 goes here.',
       },
@@ -47,7 +50,8 @@ class MinistriesInfo extends Component {
                 alt={card.title}
                 onClick={() => this.setActiveCard(index)}
               />
-              <h2><a href='/'>{card.title}</a></h2>
+              <h2><a href={card.link}>{card.title}</a></h2>
+              
               {/* <p>{card.content}</p> */}
             </div>
           ))}

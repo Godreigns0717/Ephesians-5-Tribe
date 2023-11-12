@@ -5,6 +5,8 @@ import ImageLightbox from './ImageLightbox';
 import imageData from './ImageData';
 import ScrollToTopButton from '../../ScrollToTopButton'
 import './Gallery.css'
+import Navbar from '../../Navbar';
+import TopIcons from '../../TopIcons';
  // Assuming you have imageData.js with the image data
 
 const Gallery = () => {
@@ -22,19 +24,29 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery-container">
-      {Object.keys(imageData).map((month) => (
-        <div key={month} className="month-section">
-          <h2 className="month-title">{month}</h2>
-          <div className="month-images">
-            {imageData[month].map((imageUrl, index) => (
-              <div key={index} className="image-container" onClick={() => openLightbox(imageUrl)}>
-                <img src={imageUrl} alt={`Gallery ${index + 1}`} />
-              </div>
-            ))}
-          </div>
+    <div className="Gallery">
+      <TopIcons />
+      <Navbar />
+      <div className='search-links'>
+        <p>Gallery - <a href='/'>Home</a></p>
+        <div className='search'>
+          
         </div>
-      ))}
+      </div>
+      <div className='gallery-container'>
+        {Object.keys(imageData).map((month) => (
+          <div key={month} className="month-section">
+            <h2 className="month-title">{month}</h2>
+            <div className="month-images">
+              {imageData[month].map((imageUrl, index) => (
+                <div key={index} className="image-container" onClick={() => openLightbox(imageUrl)}>
+                  <img src={imageUrl} alt={`Gallery ${index + 1}`} />
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
       {lightboxOpen && <ImageLightbox imageUrl={selectedImage} onClose={closeLightbox} />}
       <ScrollToTopButton />
     </div>
