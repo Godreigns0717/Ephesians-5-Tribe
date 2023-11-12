@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css'
-import {FaTwitter, FaWhatsapp, FaFacebook, FaInstagram, FaDiscord, FaTelegram} from "react-icons/fa";
+import {FaTwitter, FaWhatsapp, FaFacebook, FaInstagram, FaTelegram} from "react-icons/fa";
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -51,9 +51,6 @@ const Footer = () => {
                         </Link>
                         <Link to='/#'>
                             <p> Twitter <FaTwitter /></p>
-                        </Link>
-                        <Link to='/#'>
-                            <p>Discord <FaDiscord /></p>
                         </Link>
                         <Link to='/#'>
                             <p> Telegram <FaTelegram /></p>
