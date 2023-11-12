@@ -8,7 +8,25 @@ const Ministries = () => {
     return(
         <div className="Ministries">
             <Navbar />
-            <h1>Ministries</h1>
+            <div className="ministries">
+                <section className="cards online-meetings">
+                    <a href="/"><img src="images/image4.jpeg" alt="Online Meetings" /></a>
+                    <a href="/" className="text">Online Meetings</a>
+                    <div className="tri"></div>
+                </section>
+
+                <section className="cards the-couch">
+                    <a href="/"><img src="images/image5.jpeg" alt="The Couch" /></a>
+                    <a href="/" className="text">The Couch</a>
+                    <div className="tri"></div>
+                </section>
+
+                <section className="cards touched">
+                    <a href="/"><img src="images/image6.jpeg" alt="Touched" /></a>
+                    <a href="/" className="text">Touched</a>
+                    <div className="tri"></div>
+                </section>
+            </div>
             <ScrollToTopButton />
             <Footer />
         </div>

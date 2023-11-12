@@ -1,0 +1,43 @@
+.Ministries .ministries{
+    width: 98%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.ministries .cards{
+    width: 350px;
+    height: 400px;
+    background-color: #222;
+    margin-top: 2vh;
+    position: relative;
+}
+
+.ministries .cards img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 25px;
+    margin-top: 2vh;
+}
+
+.ministries .cards .text{
+    font-size: 1.3rem;
+    margin-top: 2vh;
+}
+
+.tri {
+    position: absolute;
+    bottom: -1%;
+    left: -5%;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #ffff00; /* Replace 'yourColor' with your desired color */
+    transform: rotate(225deg);
+}
