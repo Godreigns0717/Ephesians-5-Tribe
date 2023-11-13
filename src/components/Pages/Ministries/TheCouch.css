@@ -1,0 +1,68 @@
+.The-Couch{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Couch{
+    width: 96%;
+    min-height: 100vh;
+    color: #ffffff;
+    margin-left: 2%;
+    overflow: hidden;
+}
+
+.Couch .couch_banner{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Couch .couch_banner p{
+    width: 500px;
+    height: 300px;
+    padding: 5vh 0 0 5vh;
+    font-weight: 500;
+    font-size: 1.3rem;
+    animation: movetext 2s 1;
+}
+
+@keyframes movetext {
+    0%{
+        transform: translateX(-100%);
+    } 
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.Couch .couch_banner img{
+    width: auto;
+    height: auto;
+    animation: moveimg 2s 1;
+}
+
+@keyframes moveimg {
+    0%{
+        transform: translateX(100%);
+    } 
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.Couch .couch_location{
+    text-align: center;
+}
+
+.Couch .couch_location img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.Couch .couch_location h2 span{
+    color: #ffff00;
+}
