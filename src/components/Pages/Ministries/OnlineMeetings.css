@@ -1,0 +1,150 @@
+.The-Online-meeting{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Online-meeting{
+    width: 100%;
+    min-height: 96vh;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.Online-meeting .online-meeting_banner{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Online-meeting .online-meeting_banner p{
+    width: 500px;
+    height: 300px;
+    padding: 5vh 0 0 5vh;
+    font-weight: 500;
+    font-size: 1.3rem;
+    animation: movetext 2s 1;
+}
+
+@keyframes movetext {
+    0%{
+        transform: translateX(-100%);
+    } 
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.Online-meeting .online-meeting_banner img{
+    width: auto;
+    height: auto;
+    animation: moveimg 2s 1;
+}
+
+@keyframes moveimg {
+    0%{
+        transform: translateX(100%);
+    } 
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.Online-meeting .online-meeting_location{
+    text-align: center;
+}
+
+.Online-meeting .online-meeting_location img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.Online-meeting .online-meeting_location h2 span{
+    color: #ffff00;
+}
+
+.Online-meeting .online-meeting_events{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Online-meeting .online-meeting_events .upcoming{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    min-width: 20vh;
+    margin-left: 2%;
+}
+
+.Online-meeting .online-meeting_events .upcoming h2{
+    font-size: 1.7rem;
+    margin-bottom: 1vh;
+}
+
+.Online-meeting .online-meeting_events .upcoming .upcoming_event{
+    width: 300px;
+    height: 100px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Online-meeting .online-meeting_events .upcoming .upcoming_event h2{
+    color: #ffff00;
+    font-size: 1.3rem;
+    margin-bottom: 1vh;
+}
+
+.Online-meeting .online-meeting_events .upcoming .upcoming_event .edition{
+    font-size: 1rem;
+}
+
+.Online-meeting .online-meeting_events .upcoming .upcoming_event h2 span{
+    color: #ffffff;
+}
+
+.Online-meeting .online-meeting_events .icons{
+    font-size: 1.1rem;
+    color: #ffff00;
+}
+
+.past_event-text{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.Online-meeting .online-meeting_events .past{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    /* background-color: #ffff00; */
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.Online-meeting .online-meeting_events .past .past_event {
+    width: 400px;
+    height: 400px;
+}
+
+.Online-meeting .online-meeting_events .past .past_event img{
+    width: 100%;
+    height: auto;
+}
+
+.Online-meeting .online-meeting_events .past .past_event h2{
+    width: 400px;
+    color: #ffff00;
+    font-size: 1.5rem;
+    margin-bottom: 1vh;
+}
+
+.Online-meeting .online-meeting_events .past .past_event h2 span{
+    color: #ffffff;
+}
+
+
