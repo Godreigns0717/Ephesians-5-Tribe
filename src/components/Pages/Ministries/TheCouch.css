@@ -4,10 +4,9 @@
 }
 
 .Couch{
-    width: 96%;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 96vh;
     color: #ffffff;
-    margin-left: 2%;
     overflow: hidden;
 }
 
@@ -66,3 +65,88 @@
 .Couch .couch_location h2 span{
     color: #ffff00;
 }
+
+.Couch .couch_events{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Couch .couch_events .upcoming{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    min-width: 20vh;
+    margin-left: 2%;
+}
+
+.Couch .couch_events .upcoming h2{
+    font-size: 1.7rem;
+    margin-bottom: 1vh;
+}
+
+.Couch .couch_events .upcoming .upcoming_event{
+    width: 300px;
+    height: 100px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Couch .couch_events .upcoming .upcoming_event h2{
+    color: #ffff00;
+    font-size: 1.5rem;
+    margin-bottom: 1vh;
+}
+
+.Couch .couch_events .upcoming .upcoming_event .edition{
+    font-size: 1rem;
+}
+
+.Couch .couch_events .upcoming .upcoming_event h2 span{
+    color: #ffffff;
+}
+
+.Couch .couch_events .icons{
+    font-size: 1.1rem;
+    color: #ffff00;
+}
+
+.past_event-text{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.Couch .couch_events .past{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    /* background-color: #ffff00; */
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.Couch .couch_events .past .past_event {
+    width: 400px;
+    height: 400px;
+}
+
+.Couch .couch_events .past .past_event img{
+    width: 100%;
+    height: auto;
+}
+
+.Couch .couch_events .past .past_event h2{
+    width: 400px;
+    color: #ffff00;
+    font-size: 1.5rem;
+    margin-bottom: 1vh;
+}
+
+.Couch .couch_events .past .past_event h2 span{
+    color: #ffffff;
+}
+
+
+
+
