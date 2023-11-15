@@ -404,3 +404,63 @@ nav .donate:hover{
         background: #ffff00;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .nav_bar{
+        height: 10vh;
+        border-radius: 7px;
+    }
+
+    .Navbar nav a{
+        color: #000000;
+        height: 10%;
+        font-size: 1.1rem;
+        margin-left: 10%;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    nav #rsp-logo{
+        font-size: 1.4rem;
+        margin-top: -9vh;
+        margin-left: -30%;
+    }
+
+    .dropdownM{
+        margin-left: -5%;
+    }
+
+    .dropdownG{
+        margin-left: -20%;
+    }
+
+    .nav_bar .donate{
+        width: 70px;
+        height: 40px;
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+
+    nav .nav-close-btn{
+        top: 2.5rem;
+        right: 1rem;
+    }
+}
+
+@media screen and (min-width: 333px) {
+    .dropdownG{
+        margin-left: -17%;
+    }
+}
+
+@media screen and (min-width: 593px) {
+    .dropdownG {
+        margin-left: 1%;
+    }
+
+    .dropdownM {
+        margin-left: 2%;
+    }
+}
+
