@@ -101,10 +101,8 @@ nav #rsp-logo{
 
 .dropdownM, .dropdownG{
     user-select: none;
-    /* margin: 0 auto; */
     height: 100%;
     position: relative;
-    /* margin-right: -2%; */
 
 }
 
@@ -119,10 +117,10 @@ nav #rsp-logo{
     cursor: pointer;
     justify-content: space-between;
     transition: .5s;
-    margin-left: 5%;
+    /* margin-left: 5%;
     margin-right: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%; */
 }
 
 .dropdownM .dropdownM-btn:hover, .dropdownG .dropdownG-btn:hover{
@@ -158,6 +156,7 @@ nav #rsp-logo{
 }
 
 nav #contact {
+    /* padding-left: 0; */
     margin-left: -3%;
 }
 
@@ -193,6 +192,52 @@ nav .donate:hover{
     /* color: #d6d604; */
     color: #333333;
 }
+
+/* @media screen and (max-width:2560px){
+    .Navbar a{
+        text-decoration: none;
+        color: #000000;
+        margin: 0 3%;
+        font-size: 2rem;
+        font-weight: 500;
+        transition: all 0.5s ease;
+        user-select: none;
+    }
+    
+    .nav_bar{
+        width: 100%;
+        z-index: 111111;
+        height: 10vh;
+        position: relative;
+        font-size: 2rem;
+    }
+    
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-left: 25%;
+        padding-left: 5%;
+        position: relative;
+    }
+
+    .dropdownM, .dropdownG{
+        padding: 0 3% 0 3%;
+    }
+
+    #contact{
+        padding-left: 3%;
+    }
+
+    nav .donate{
+        padding: 7px 14px ;
+        color: #ffff00;
+        background-color: #0c0c0c;
+        text-align: center;
+        border-radius: 14px ;
+        transition: all .5s ease;
+    } 
+} */
 
 @media screen and (max-width:1184px){
     .Navbar a{
