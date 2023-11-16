@@ -4,8 +4,6 @@ import './Join_work.css'
 
 const JoinWork = () => {
 
-    // const Image = '/images/image1.jpeg';
-
     return(
 
         <div className="JoinWorkforce">

@@ -21,3 +21,9 @@
     color: #ffff00;
 }
 
+@media screen and (max-width: 426px) {
+    .top-icons a{
+        font-size: 1.1rem;
+        margin-right: 2%;
+    }
+}

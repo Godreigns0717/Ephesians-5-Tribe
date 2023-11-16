@@ -44,11 +44,27 @@
     margin-left: 5%;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
     .JoinWorkforce{
         margin-top: 2vh;
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .JoinWorkforce .img{
+        width: 98%;
+        height: 220px;
+        background-image: url('../../../../public/images/image4.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 4s ease-in-out;
     }
 }

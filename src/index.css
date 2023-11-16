@@ -28,6 +28,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
+  background-image: url(../public/images/E5T-11.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat:  repeat;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 0;
+
 }
 
 code {

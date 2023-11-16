@@ -30,6 +30,5 @@
 /* Style the active card differently */
 .card.active {
   transform: scale(1.1);
-  /* background-color: #f1f100; */
 }
 

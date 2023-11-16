@@ -341,10 +341,16 @@ nav .donate:hover{
 
 @media screen and (max-width:600px) {
     
+    .nav_bar {
+        height: 10vh;
+        border-radius: 10px;
+    }
+
     .nav-btn{
         display: block;
         visibility: visible;
         opacity: 1;
+        font-size: 1.3rem;
     }
 
     .nav_bar nav{

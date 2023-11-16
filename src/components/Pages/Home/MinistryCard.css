@@ -1,27 +1,24 @@
 .Ministry{
     width: 100%;
-    min-height: 70vh;
+    min-height: 100px;
     z-index: 1;
 }
 
 .Ministry .Ministry-card{
     width: 100%;
-    min-height: 70vh;
+    height: 100px;
     width: 100%;
-    height: 100%;
-    /* position: absolute;
-    top: 0;
-    left: 0; */
+    height: auto;
     transition: background-color 0.3s;
 }
 
 .Ministry .Ministry-card .mcard-title{
-    margin-top: 7vh;
+    margin-top: 4vh;
     text-align: center;
 }
 
 .Ministry .Ministry-card .mcard-title a{
-    margin-top: 20vh;
+    margin-top: 5vh;
     font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -37,7 +34,7 @@
 
 .ministry_card-list{
     width: 100%;
-    min-height: 70vh;
+    min-height: 300px;
     margin-top: 5vh;
     display: flex;
     flex-wrap: wrap;
@@ -48,12 +45,13 @@
 .ministry_card-list .ministry_card-preview{
     width: 380px;
     background-color: #ffff00;
-    min-height: 450px;
+    height: 100px;
     margin-left: 1%;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 4px #0000006d;
     transition: all .5s ease-in-out;
+    padding-top: 3vh;
 }
 
 .ministry_card-list .ministry_card-preview:hover{
