@@ -49,3 +49,23 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 600px) {
+  .convener-info .content h3{
+    width: 300px;
+    font-size: 1rem;
+    margin-left: 7%;
+    margin-right: 5%;
+  }
+
+  .convener-info .content .image-background{
+    width: 150px;
+    height: 150px;
+    padding-left: 2%;
+    margin-left: 2%;
+  }
+
+  .convener-info .content .image-background img{
+    object-fit: cover;
+  }
+}
