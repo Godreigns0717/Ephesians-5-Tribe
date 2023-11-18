@@ -2,6 +2,7 @@
     width: 100%;
     min-height: 50vh;
     background-color: #232222;
+    animation: animate 2s 1 ;
 }
 
 .sb__footer{

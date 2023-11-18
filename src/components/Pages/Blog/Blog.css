@@ -13,6 +13,7 @@
   margin-top: 7vh;
   padding: 2vh;
   position: relative;
+  animation: animate 2s 1 ;
 }
 
 .blog-post:hover {

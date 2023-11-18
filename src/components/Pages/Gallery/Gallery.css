@@ -12,11 +12,13 @@
 .gallery-container {
   width: 100%;
   min-height: 100vh;
+  overflow: hidden;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
   justify-items: center;
   box-sizing: border-box;
+  animation: animate 2s 1 ;
 }
 
 .image-container {

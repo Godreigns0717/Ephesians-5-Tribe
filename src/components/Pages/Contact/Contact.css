@@ -4,6 +4,7 @@
   min-height: 100vh;
   margin-left: 1%;
   margin-top: 15vh;
+  animation: animate 2s 1 ;
 }
 
 .contact_cards {

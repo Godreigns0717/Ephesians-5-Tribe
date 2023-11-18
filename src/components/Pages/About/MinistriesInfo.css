@@ -2,6 +2,7 @@
   max-width: 100%;
   overflow: hidden;
   text-align: center;
+  animation: animate 2s 1 ;
 }
 
 .carousel-container h2{

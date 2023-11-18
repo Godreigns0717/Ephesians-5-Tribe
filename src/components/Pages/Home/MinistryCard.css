@@ -2,6 +2,19 @@
     width: 100%;
     min-height: 100px;
     z-index: 1;
+    animation: animate 2s 1 ;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(400px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0vh);
+        opacity: 1;
+    }
 }
 
 .Ministry .Ministry-card{

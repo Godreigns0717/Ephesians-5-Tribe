@@ -6,6 +6,7 @@
     height: 50vh;
     display: flex;
     align-items: center;
+    animation: animate 2s 1 ;
     /* background-color: aqua; */
 }
 

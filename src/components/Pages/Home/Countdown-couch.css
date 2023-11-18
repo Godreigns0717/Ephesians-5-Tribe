@@ -4,6 +4,7 @@
     margin-top: 7vh;
     /* background-color: blue; */
     outline: none;
+    animation: animate 2s 1 ;
 }
 
 .Countdown .Countdown-title{

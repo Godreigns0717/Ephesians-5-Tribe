@@ -1,6 +1,7 @@
 .church-info{
   width: 100%;
   min-height: 30vh;
+  animation: animate 2s 1 ;
 }
 
 .church-info h1{
