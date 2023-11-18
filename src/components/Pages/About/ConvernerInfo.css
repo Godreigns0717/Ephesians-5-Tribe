@@ -27,6 +27,34 @@
   transition: .5s;
 }
 
+.convener-info .content h3 .active-btn button{
+  border-radius: 50%;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 1%;
+  background-color: transparent;
+  color: #ffffff;
+  animation: active 2s 1;
+}
+
+.convener-info .content h3 .active-btn button:hover{
+  color: #ffff00;
+}
+
+@keyframes active {
+  0%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 
 .convener-info .content h3 a:hover{
   color: #ffff00;
@@ -53,7 +81,7 @@
 @media screen and (max-width: 600px) {
   .convener-info .content h3{
     width: 300px;
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-left: 7%;
     margin-right: 5%;
   }
@@ -67,5 +95,9 @@
 
   .convener-info .content .image-background img{
     object-fit: cover;
+  }
+
+  .convener-info .content h3 .active-btn button{
+    font-size: 1rem;
   }
 }
