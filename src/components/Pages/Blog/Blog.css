@@ -1,11 +1,10 @@
-.blog{
+/* Base styles for larger screens */
+.blog {
   width: 100%;
   min-height: 100vh;
-  /* background-color: #000000; */
 }
 
-.blog-post{
-  
+.blog-post {
   background-color: #222222c0;
   border-radius: 20px;
   width: 96%;
@@ -16,26 +15,26 @@
   position: relative;
 }
 
-.blog-post:hover{
+.blog-post:hover {
   background-color: #222222;
   box-shadow: 3px 1px 3px #807b7bb7;
   border-radius: 20px;
 }
 
-.blog-post h2{
+.blog-post h2 {
   font-size: 1.3rem;
   color: #ffff00;
   text-align: center;
 }
 
-.blog-post .author{
+.blog-post .author {
   position: absolute;
   font-size: 1.1rem;
   top: 2vh;
   color: #ffff00;
 }
 
-.blog-post .content{
+.blog-post .content {
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 2vh;
@@ -44,7 +43,7 @@
   color: #ffffff;
 }
 
-.blog-post .actions button{
+.blog-post .actions button {
   border: none;
   outline: none;
   background-color: transparent;
@@ -53,25 +52,42 @@
   margin-left: 5%;
 }
 
-.blog-post .actions button:hover{
+.blog-post .actions button:hover {
   background-color: #807b7ba4;
 }
 
-.blog-post .actions .hearts, .blog-post .actions .likes{
+.blog-post .actions .hearts,
+.blog-post .actions .likes {
   margin-right: 2%;
-  /* margin-top: 5vh; */
 }
 
-.blog-post .actions button.like-active{
+.blog-post .actions button.like-active {
   color: #ffff00;
 }
 
-.blog-post .actions button.heart-active{
+.blog-post .actions button.heart-active {
   color: #ff0000;
 }
 
-.blog-post .actions .delete{
+.blog-post .actions .delete {
   position: absolute;
   right: 1%;
   top: 1vh;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .blog-post {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .blog-post .content {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .blog-post .actions button {
+    margin-left: 2%;
+  }
 }

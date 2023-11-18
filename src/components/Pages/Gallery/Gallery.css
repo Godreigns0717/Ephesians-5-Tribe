@@ -1,9 +1,9 @@
-/* Apply styles to the body or a container to set a background color */
-.Gallery .search-links{
+/* Base styles for larger screens */
+.Gallery .search-links {
   text-align: center;
 }
 
-.Gallery .search-links p{
+.Gallery .search-links p {
   color: #ffffff;
   font-size: 1.2rem;
   margin-top: 7vh;
@@ -34,8 +34,8 @@
 }
 
 .image-container img {
-  width: 300px;
-  height: 300px;
+  width: 100%; /* Make the image responsive within its container */
+  height: 100%;
   display: block;
 }
 
@@ -89,33 +89,13 @@
   transform: scale(1.05);
 }
 
-/* Existing styles... */
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 
-.gallery-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
+  .image-container {
+    width: 100%;
+  }
 }
-
-.month-section {
-  text-align: center;
-}
-
-.month-title {
-  color: #fff;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.month-images{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-/* Existing styles... */
-
