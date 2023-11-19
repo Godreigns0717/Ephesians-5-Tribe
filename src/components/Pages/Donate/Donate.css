@@ -1,0 +1,20 @@
+  
+  .donate-card {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+    animation: rotateX 3s infinite linear;
+  }
+  
+  @keyframes rotateX {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  

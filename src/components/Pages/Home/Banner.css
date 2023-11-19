@@ -1,0 +1,46 @@
+.FrontPage{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.FrontPage .text{
+    width: 500px;
+    margin-left: 4%;
+    animation: movetext 2s 1;
+}
+
+@keyframes movetext {
+    0%{
+        transform: translateX(-100%);
+    } 
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.FrontPage .text h2{
+    color: #ffff00;
+}
+
+
+.FrontPage img{
+    margin-top: -5vh;
+    width: auto;
+    height: 450px;
+    margin-right: 5%;
+    animation: moveimg 2s 1;
+}
+
+@keyframes moveimg {
+    0%{
+        transform: translateX(-100%);
+    } 
+    100%{
+        transform: translateX(0);
+    }
+}

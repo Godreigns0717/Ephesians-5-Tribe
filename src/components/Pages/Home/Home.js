@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from '../../Navbar';
-import './Home.css'
+import './Home.css';
+import FrontPage from './Banner.js';
 import MinistryCard from './MinistryCard';
-import Slideshow from './Slideshow.js';
+// import Slideshow from './Slideshow.js';
 import JoinWork from './Join_work.js';
 import CountdownTimer from './Countdown-couch.js';
 import Footer from '../../Footer';
@@ -18,6 +19,8 @@ const Home = () => {
   targetDate.setMinutes(targetDate.getMinutes() + 59);
   targetDate.setSeconds(targetDate.getSeconds() + 0);
 
+  //For Slideshow
+  /*
   const slides = [
     {
       image: '/images/image1.jpeg',
@@ -34,14 +37,15 @@ const Home = () => {
       title: 'Slide 3',
       description: 'Description for Slide 3',
     },
-  ];
+  ]; */
 
 
   return (
 
     <div className="Home">
         <Navbar /> 
-        <Slideshow slides={slides} />
+        <FrontPage />
+        {/* <Slideshow slides={slides} /> */}
         <MinistryCard />
         <JoinWork />
         <CountdownTimer targetDate={targetDate} />

@@ -18,7 +18,7 @@ class MinistriesInfo extends Component {
     const cards = [
       {
         image: '/images/image1.jpeg',
-        link: '/the_couch',
+        link: '/the couch',
         title: 'The Couch',
         content: 'Content for Card 1 goes here.',
       },

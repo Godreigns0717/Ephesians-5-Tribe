@@ -43,7 +43,7 @@ function App() {
           <Route path="/ministries" element={<Ministries />} />
           <Route path='/blog' element={<Blog />} />
           <Route path="/donate" element={<Donate />} />
-          <Route path='/the_couch' element={<TheCouch />} />
+          <Route path='/the couch' element={<TheCouch />} />
           <Route path='/touched' element={<Touched />} />
           <Route path='/online_meetings' element={<OnlineMeetings />} />
           {/* Add more routes and components as needed */}

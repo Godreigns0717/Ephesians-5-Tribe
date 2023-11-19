@@ -6,7 +6,9 @@ const Donate = () => {
     return(
         <div className="Donate">
             <Navbar />
-            <h1>Donate</h1>
+            <div className="donate-card">
+
+            </div>
         </div>
     )
 };
