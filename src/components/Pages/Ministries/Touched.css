@@ -150,3 +150,82 @@
 
 
 
+/* Default styles for larger screens */
+.The-Touch {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Touch {
+    width: 100%;
+    min-height: 96vh;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.Touch .touch_banner p {
+    width: 500px;
+    height: 300px;
+    padding: 5vh 0 0 5vh;
+    font-weight: 500;
+    font-size: 1.3rem;
+    animation: movetext 2s 1;
+}
+
+.Touch .touch_banner img {
+    width: auto;
+    height: auto;
+    animation: moveimg 2s 1;
+}
+
+.Touch .touch_location img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.Touch .touch_events .upcoming .upcoming_event {
+    width: 300px;
+    height: 100px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Touch .touch_events .past .past_event {
+    width: 400px;
+    height: 400px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .Touch .touch_banner p {
+        width: 100%;
+        height: auto;
+        padding: 5vh 2% 0 2%;
+        text-align: center;
+    }
+
+    .Touch .touch_banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Touch .touch_location img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Touch .touch_events .upcoming .upcoming_event,
+    .Touch .touch_events .past .past_event {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2vh;
+    }
+
+    .Touch .touch_events .upcoming .upcoming_event h2,
+    .Touch .touch_events .past .past_event h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5vh;
+    }
+}

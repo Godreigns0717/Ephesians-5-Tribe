@@ -97,7 +97,7 @@ const OnlineMeetings = () => {
                         </div>
                     </div>
                 </div>
-            </div>s
+            </div>
             <Footer />
         </div>
      );

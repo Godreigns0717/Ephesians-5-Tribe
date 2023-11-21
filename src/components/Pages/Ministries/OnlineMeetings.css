@@ -148,3 +148,82 @@
 }
 
 
+/* Default styles for larger screens */
+.The-Online-meeting {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Online-meeting {
+    width: 100%;
+    min-height: 96vh;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.Online-meeting .online-meeting_banner p {
+    width: 500px;
+    height: 300px;
+    padding: 5vh 0 0 5vh;
+    font-weight: 500;
+    font-size: 1.3rem;
+    animation: movetext 2s 1;
+}
+
+.Online-meeting .online-meeting_banner img {
+    width: auto;
+    height: auto;
+    animation: moveimg 2s 1;
+}
+
+.Online-meeting .online-meeting_location img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.Online-meeting .online-meeting_events .upcoming .upcoming_event {
+    width: 300px;
+    height: 100px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Online-meeting .online-meeting_events .past .past_event {
+    width: 400px;
+    height: 400px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .Online-meeting .online-meeting_banner p {
+        width: 100%;
+        height: auto;
+        padding: 5vh 2% 0 2%;
+        text-align: center;
+    }
+
+    .Online-meeting .online-meeting_banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Online-meeting .online-meeting_location img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Online-meeting .online-meeting_events .upcoming .upcoming_event,
+    .Online-meeting .online-meeting_events .past .past_event {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2vh;
+    }
+
+    .Online-meeting .online-meeting_events .upcoming .upcoming_event h2,
+    .Online-meeting .online-meeting_events .past .past_event h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5vh;
+    }
+}
