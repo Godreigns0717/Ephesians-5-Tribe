@@ -51,10 +51,10 @@ const Navbar = () => {
                         {isActiveM && (
                             <div className="dropdownM-content">
                                 <div className="dropdownM-item">
-                                    <a href="/online_meetings">Online</a>
+                                    <a href="/online meetings">Online</a>
                                 </div>
                                 <div className="dropdownM-item">
-                                <a href="/the_couch">The Couch</a>
+                                <a href="/the couch">The Couch</a>
                                 </div>
                                 <div className="dropdownM-item">
                                     <a href="/touched">Touched</a>

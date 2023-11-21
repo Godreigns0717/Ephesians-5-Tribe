@@ -45,7 +45,7 @@ function App() {
           <Route path="/donate" element={<Donate />} />
           <Route path='/the couch' element={<TheCouch />} />
           <Route path='/touched' element={<Touched />} />
-          <Route path='/online_meetings' element={<OnlineMeetings />} />
+          <Route path='/online meetings' element={<OnlineMeetings />} />
           {/* Add more routes and components as needed */}
         </Routes>
         )}

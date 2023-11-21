@@ -30,7 +30,7 @@ class MinistriesInfo extends Component {
       },
       {
         image: '/images/image4.jpeg',
-        link: '/online_meetings',
+        link: '/online meetings',
         title: 'Online Meetings',
         content: 'Content for Card 3 goes here.',
       },

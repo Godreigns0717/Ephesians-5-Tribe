@@ -10,14 +10,14 @@ const Ministries = () => {
             <Navbar />
             <div className="ministries">
                 <section className="cards online-meetings">
-                    <a href="/online_meetings"><img src="images/image4.jpeg" alt="Online Meetings" /></a>
-                    <a href="/online_meetings" className="text">Online Meetings</a>
+                    <a href="/online meetings"><img src="images/image4.jpeg" alt="Online Meetings" /></a>
+                    <a href="/online meetings" className="text">Online Meetings</a>
                     <div className="tri"></div>
                 </section>
 
                 <section className="cards the-couch">
-                    <a href="/the_couch"><img src="images/image5.jpeg" alt="The Couch" /></a>
-                    <a href="/the_couch" className="text">The Couch</a>
+                    <a href="/the couch"><img src="images/image5.jpeg" alt="The Couch" /></a>
+                    <a href="/the couch" className="text">The Couch</a>
                     <div className="tri"></div>
                 </section>
 
