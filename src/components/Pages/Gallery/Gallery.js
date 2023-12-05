@@ -7,6 +7,7 @@ import ScrollToTopButton from '../../ScrollToTopButton'
 import './Gallery.css'
 import Navbar from '../../Navbar';
 import TopIcons from '../../TopIcons';
+import { FaSearch } from 'react-icons/fa';
  // Assuming you have imageData.js with the image data
 
 const Gallery = () => {
@@ -30,7 +31,7 @@ const Gallery = () => {
       <div className='search-links'>
         <p>Gallery - <a href='/'>Home</a></p>
         <div className='search'>
-          
+          <input type='search' placeholder='search'/> <FaSearch />
         </div>
       </div>
       <div className='gallery-container'>

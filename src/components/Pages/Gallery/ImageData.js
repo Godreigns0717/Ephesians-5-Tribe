@@ -28,7 +28,7 @@ const imageData = {
       '/images/image4.jpeg',
       '/images/image3.jpg',
       '/images/image4.jpeg',
-      // Add more images for January
+      // Add more images
     ],
     February2023: [
       '/images/image3.jpg',
@@ -49,7 +49,7 @@ const imageData = {
       '/images/image4.jpeg',
       '/images/image3.jpg',
       '/images/image4.jpeg',
-      // Add more images for February
+      // Add more images
     ],
       
     March2023: [
@@ -71,7 +71,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
 
     May2023: [
@@ -93,7 +93,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
 
       
@@ -116,7 +116,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
       
     July2023: [
@@ -138,7 +138,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
       
     August2023: [
@@ -160,7 +160,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
       
     September2023: [
@@ -182,7 +182,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
       
     October2023: [
@@ -204,7 +204,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
       
     November2023: [
@@ -226,7 +226,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
       
     December2023: [
@@ -248,7 +248,7 @@ const imageData = {
         '/images/image4.jpeg',
         '/images/image3.jpg',
         '/images/image4.jpeg',
-        // Add more images for February
+        // Add more images
       ],
     // Add more months and images as needed
   };

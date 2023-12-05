@@ -1,12 +1,21 @@
 /* Base styles for larger screens */
+.Gallery{
+  color: #ffffff;
+}
+
 .Gallery .search-links {
+  width: 100%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
 }
 
 .Gallery .search-links p {
   color: #ffffff;
   font-size: 1.2rem;
-  margin-top: 7vh;
+  margin-right: 2%;
 }
 
 .gallery-container {
@@ -18,8 +27,26 @@
   gap: 10px;
   justify-items: center;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   animation: animate 2s 1 ;
+  color: #ffffff;
 }
+
+.gallery-container .month-section{
+  text-align: center;
+}
+
+.gallery-container .month-images{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+/* .gallery-container h2{
+  color: #ffffff;
+} */
 
 .image-container {
   width: 300px;
