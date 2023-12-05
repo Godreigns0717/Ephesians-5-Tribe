@@ -7,7 +7,9 @@ const MinistryCard = () => {
 
     const [mcards, setMCards] = useState([
         {title: 'The Couch', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum. Voluptas alias voluptatem nobis quisquam consequatur dolorum, quis modi repudiandae totam maxime ea rerum, rem necessitatibus nesciunt tempore. Consequatur, distinctio.', minister:'Busayo David', link: '/the couch', id:1},
+
         {title: 'Touched', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum. Voluptas alias voluptatem nobis quisquam consequatur dolorum, quis modi repudiandae totam maxime ea rerum, rem necessitatibus nesciunt tempore. Consequatur, distinctio.', minister:'Mojisola Ogundipe', link: '/touched', id:2},
+        
         {title: 'Online Meeetings', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum. Voluptas alias voluptatem nobis quisquam consequatur dolorum, quis modi repudiandae totam maxime ea rerum, rem necessitatibus nesciunt tempore. Consequatur, distinctio.', minister:'Busayo David', link: '/online meeting', id:3}
     ]);
 
